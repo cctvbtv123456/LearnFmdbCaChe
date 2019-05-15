@@ -1,0 +1,6 @@
+module Pods_LearnFmdbCaChe {
+  umbrella header "Pods-LearnFmdbCaChe-umbrella.h"
+
+  export *
+  module * { export * }
+}

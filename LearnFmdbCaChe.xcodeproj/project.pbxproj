@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AFDCD5228BA60100B79781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDCD4228BA60100B79781 /* AppDelegate.m */; };
+		04AFDCD8228BA60100B79781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDCD7228BA60100B79781 /* ViewController.m */; };
+		04AFDCDB228BA60100B79781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AFDCD9228BA60100B79781 /* Main.storyboard */; };
+		04AFDCDD228BA60500B79781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AFDCDC228BA60500B79781 /* Assets.xcassets */; };
+		04AFDCE0228BA60500B79781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AFDCDE228BA60500B79781 /* LaunchScreen.storyboard */; };
+		04AFDCE3228BA60500B79781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDCE2228BA60500B79781 /* main.m */; };
+		04AFDCED228BA60500B79781 /* LearnFmdbCaCheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDCEC228BA60500B79781 /* LearnFmdbCaCheTests.m */; };
+		04AFDCF8228BA60500B79781 /* LearnFmdbCaCheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDCF7228BA60500B79781 /* LearnFmdbCaCheUITests.m */; };
+		04AFDD09228BA9D200B79781 /* SMFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD08228BA9D200B79781 /* SMFeedModel.m */; };
+		04AFDD0C228BA9E500B79781 /* SMFeedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD0B228BA9E500B79781 /* SMFeedStore.m */; };
+		04AFDD10228BAF1600B79781 /* SMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD0F228BAF1600B79781 /* SMDB.m */; };
+		04AFDD14228BEDCB00B79781 /* SMNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD13228BEDCB00B79781 /* SMNetManager.m */; };
+		04AFDD17228BF5BB00B79781 /* SMRootCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD16228BF5BB00B79781 /* SMRootCellViewModel.m */; };
+		04AFDD1B228BF60300B79781 /* SMRootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD1A228BF60300B79781 /* SMRootCell.m */; };
+		04AFDD1F228BF9C600B79781 /* SMStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD1E228BF9C600B79781 /* SMStyle.m */; };
+		04AFDD22228BFA1900B79781 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD21228BFA1900B79781 /* UIColor+Expanded.m */; };
+		04AFDD25228BFBC100B79781 /* UIButton+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD24228BFBC100B79781 /* UIButton+BackgroundColor.m */; };
+		3F4C4E8A490E8AF1572379FC /* libPods-LearnFmdbCaChe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81215340F725DC1AF8642EB6 /* libPods-LearnFmdbCaChe.a */; };
+		EC5934E1B4203C90726CF3F1 /* libPods-LearnFmdbCaCheUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE8FC9119D814E5FB31398A /* libPods-LearnFmdbCaCheUITests.a */; };
+		F3E96EF0FE5A1916228C8834 /* libPods-LearnFmdbCaCheTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE6395F0E7AC8D16167CF0A /* libPods-LearnFmdbCaCheTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AFDCE9228BA60500B79781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AFDCC8228BA60100B79781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AFDCCF228BA60100B79781;
+			remoteInfo = LearnFmdbCaChe;
+		};
+		04AFDCF4228BA60500B79781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AFDCC8228BA60100B79781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AFDCCF228BA60100B79781;
+			remoteInfo = LearnFmdbCaChe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A63C53B0B6E004A958D9CC /* Pods-LearnFmdbCaCheTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFmdbCaCheTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFmdbCaCheTests/Pods-LearnFmdbCaCheTests.debug.xcconfig"; sourceTree = "<group>"; };
+		04AFDCD0228BA60100B79781 /* LearnFmdbCaChe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnFmdbCaChe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDCD3228BA60100B79781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04AFDCD4228BA60100B79781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04AFDCD6228BA60100B79781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04AFDCD7228BA60100B79781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04AFDCDA228BA60100B79781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AFDCDC228BA60500B79781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AFDCDF228BA60500B79781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AFDCE1228BA60500B79781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AFDCE2228BA60500B79781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AFDCE8228BA60500B79781 /* LearnFmdbCaCheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnFmdbCaCheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDCEC228BA60500B79781 /* LearnFmdbCaCheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnFmdbCaCheTests.m; sourceTree = "<group>"; };
+		04AFDCEE228BA60500B79781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AFDCF3228BA60500B79781 /* LearnFmdbCaCheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnFmdbCaCheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDCF7228BA60500B79781 /* LearnFmdbCaCheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnFmdbCaCheUITests.m; sourceTree = "<group>"; };
+		04AFDCF9228BA60500B79781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AFDD05228BA72F00B79781 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04AFDD07228BA9D200B79781 /* SMFeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMFeedModel.h; sourceTree = "<group>"; };
+		04AFDD08228BA9D200B79781 /* SMFeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMFeedModel.m; sourceTree = "<group>"; };
+		04AFDD0A228BA9E500B79781 /* SMFeedStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMFeedStore.h; sourceTree = "<group>"; };
+		04AFDD0B228BA9E500B79781 /* SMFeedStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMFeedStore.m; sourceTree = "<group>"; };
+		04AFDD0E228BAF1600B79781 /* SMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMDB.h; sourceTree = "<group>"; };
+		04AFDD0F228BAF1600B79781 /* SMDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMDB.m; sourceTree = "<group>"; };
+		04AFDD12228BEDCB00B79781 /* SMNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMNetManager.h; sourceTree = "<group>"; };
+		04AFDD13228BEDCB00B79781 /* SMNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMNetManager.m; sourceTree = "<group>"; };
+		04AFDD15228BF5BB00B79781 /* SMRootCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRootCellViewModel.h; sourceTree = "<group>"; };
+		04AFDD16228BF5BB00B79781 /* SMRootCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRootCellViewModel.m; sourceTree = "<group>"; };
+		04AFDD19228BF60300B79781 /* SMRootCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRootCell.h; sourceTree = "<group>"; };
+		04AFDD1A228BF60300B79781 /* SMRootCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRootCell.m; sourceTree = "<group>"; };
+		04AFDD1D228BF9C600B79781 /* SMStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMStyle.h; sourceTree = "<group>"; };
+		04AFDD1E228BF9C600B79781 /* SMStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMStyle.m; sourceTree = "<group>"; };
+		04AFDD20228BFA1900B79781 /* UIColor+Expanded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		04AFDD21228BFA1900B79781 /* UIColor+Expanded.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		04AFDD23228BFBC100B79781 /* UIButton+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BackgroundColor.h"; sourceTree = "<group>"; };
+		04AFDD24228BFBC100B79781 /* UIButton+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BackgroundColor.m"; sourceTree = "<group>"; };
+		31CEECD5D24B79E33F99530C /* Pods-LearnFmdbCaCheUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFmdbCaCheUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFmdbCaCheUITests/Pods-LearnFmdbCaCheUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AE8FC9119D814E5FB31398A /* libPods-LearnFmdbCaCheUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnFmdbCaCheUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEBC0B799BA0DD112532452 /* Pods-LearnFmdbCaChe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFmdbCaChe.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFmdbCaChe/Pods-LearnFmdbCaChe.release.xcconfig"; sourceTree = "<group>"; };
+		5FE6395F0E7AC8D16167CF0A /* libPods-LearnFmdbCaCheTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnFmdbCaCheTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEC8D422A70E944F4CD45A5 /* Pods-LearnFmdbCaCheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFmdbCaCheTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFmdbCaCheTests/Pods-LearnFmdbCaCheTests.release.xcconfig"; sourceTree = "<group>"; };
+		81215340F725DC1AF8642EB6 /* libPods-LearnFmdbCaChe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnFmdbCaChe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF21ACF75516461514E08C6F /* Pods-LearnFmdbCaCheUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFmdbCaCheUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFmdbCaCheUITests/Pods-LearnFmdbCaCheUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E55D0FC4F884F87B782974C4 /* Pods-LearnFmdbCaChe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnFmdbCaChe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnFmdbCaChe/Pods-LearnFmdbCaChe.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AFDCCD228BA60100B79781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4C4E8A490E8AF1572379FC /* libPods-LearnFmdbCaChe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDCE5228BA60500B79781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E96EF0FE5A1916228C8834 /* libPods-LearnFmdbCaCheTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDCF0228BA60500B79781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5934E1B4203C90726CF3F1 /* libPods-LearnFmdbCaCheUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AFDCC7228BA60100B79781 = {
+			isa = PBXGroup;
+			children = (
+				04AFDCD2228BA60100B79781 /* LearnFmdbCaChe */,
+				04AFDCEB228BA60500B79781 /* LearnFmdbCaCheTests */,
+				04AFDCF6228BA60500B79781 /* LearnFmdbCaCheUITests */,
+				04AFDCD1228BA60100B79781 /* Products */,
+				4343B97AC802967C1E11E4F1 /* Pods */,
+				B7A9C44AB95FDD19DB7A7BDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04AFDCD1228BA60100B79781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDCD0228BA60100B79781 /* LearnFmdbCaChe.app */,
+				04AFDCE8228BA60500B79781 /* LearnFmdbCaCheTests.xctest */,
+				04AFDCF3228BA60500B79781 /* LearnFmdbCaCheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AFDCD2228BA60100B79781 /* LearnFmdbCaChe */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDCD3228BA60100B79781 /* AppDelegate.h */,
+				04AFDCD4228BA60100B79781 /* AppDelegate.m */,
+				04AFDCD6228BA60100B79781 /* ViewController.h */,
+				04AFDCD7228BA60100B79781 /* ViewController.m */,
+				04AFDD1C228BF99F00B79781 /* Style */,
+				04AFDD18228BF5F100B79781 /* View */,
+				04AFDD11228BEDB200B79781 /* Net */,
+				04AFDD0D228BAF0200B79781 /* DB */,
+				04AFDD06228BA95900B79781 /* Model */,
+				04AFDCD9228BA60100B79781 /* Main.storyboard */,
+				04AFDCDC228BA60500B79781 /* Assets.xcassets */,
+				04AFDCDE228BA60500B79781 /* LaunchScreen.storyboard */,
+				04AFDCE1228BA60500B79781 /* Info.plist */,
+				04AFDCE2228BA60500B79781 /* main.m */,
+				04AFDD05228BA72F00B79781 /* PrefixHeader.pch */,
+			);
+			path = LearnFmdbCaChe;
+			sourceTree = "<group>";
+		};
+		04AFDCEB228BA60500B79781 /* LearnFmdbCaCheTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDCEC228BA60500B79781 /* LearnFmdbCaCheTests.m */,
+				04AFDCEE228BA60500B79781 /* Info.plist */,
+			);
+			path = LearnFmdbCaCheTests;
+			sourceTree = "<group>";
+		};
+		04AFDCF6228BA60500B79781 /* LearnFmdbCaCheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDCF7228BA60500B79781 /* LearnFmdbCaCheUITests.m */,
+				04AFDCF9228BA60500B79781 /* Info.plist */,
+			);
+			path = LearnFmdbCaCheUITests;
+			sourceTree = "<group>";
+		};
+		04AFDD06228BA95900B79781 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDD07228BA9D200B79781 /* SMFeedModel.h */,
+				04AFDD08228BA9D200B79781 /* SMFeedModel.m */,
+				04AFDD0A228BA9E500B79781 /* SMFeedStore.h */,
+				04AFDD0B228BA9E500B79781 /* SMFeedStore.m */,
+				04AFDD15228BF5BB00B79781 /* SMRootCellViewModel.h */,
+				04AFDD16228BF5BB00B79781 /* SMRootCellViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04AFDD0D228BAF0200B79781 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDD0E228BAF1600B79781 /* SMDB.h */,
+				04AFDD0F228BAF1600B79781 /* SMDB.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		04AFDD11228BEDB200B79781 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDD12228BEDCB00B79781 /* SMNetManager.h */,
+				04AFDD13228BEDCB00B79781 /* SMNetManager.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		04AFDD18228BF5F100B79781 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDD19228BF60300B79781 /* SMRootCell.h */,
+				04AFDD1A228BF60300B79781 /* SMRootCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04AFDD1C228BF99F00B79781 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDD1D228BF9C600B79781 /* SMStyle.h */,
+				04AFDD1E228BF9C600B79781 /* SMStyle.m */,
+				04AFDD20228BFA1900B79781 /* UIColor+Expanded.h */,
+				04AFDD21228BFA1900B79781 /* UIColor+Expanded.m */,
+				04AFDD23228BFBC100B79781 /* UIButton+BackgroundColor.h */,
+				04AFDD24228BFBC100B79781 /* UIButton+BackgroundColor.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		4343B97AC802967C1E11E4F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E55D0FC4F884F87B782974C4 /* Pods-LearnFmdbCaChe.debug.xcconfig */,
+				4DEBC0B799BA0DD112532452 /* Pods-LearnFmdbCaChe.release.xcconfig */,
+				01A63C53B0B6E004A958D9CC /* Pods-LearnFmdbCaCheTests.debug.xcconfig */,
+				6BEC8D422A70E944F4CD45A5 /* Pods-LearnFmdbCaCheTests.release.xcconfig */,
+				DF21ACF75516461514E08C6F /* Pods-LearnFmdbCaCheUITests.debug.xcconfig */,
+				31CEECD5D24B79E33F99530C /* Pods-LearnFmdbCaCheUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7A9C44AB95FDD19DB7A7BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81215340F725DC1AF8642EB6 /* libPods-LearnFmdbCaChe.a */,
+				5FE6395F0E7AC8D16167CF0A /* libPods-LearnFmdbCaCheTests.a */,
+				3AE8FC9119D814E5FB31398A /* libPods-LearnFmdbCaCheUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AFDCCF228BA60100B79781 /* LearnFmdbCaChe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDCFC228BA60500B79781 /* Build configuration list for PBXNativeTarget "LearnFmdbCaChe" */;
+			buildPhases = (
+				0607DC8D5E6E74F3F0171B7A /* [CP] Check Pods Manifest.lock */,
+				04AFDCCC228BA60100B79781 /* Sources */,
+				04AFDCCD228BA60100B79781 /* Frameworks */,
+				04AFDCCE228BA60100B79781 /* Resources */,
+				FBE954460925F1DF76BAEAA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnFmdbCaChe;
+			productName = LearnFmdbCaChe;
+			productReference = 04AFDCD0228BA60100B79781 /* LearnFmdbCaChe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AFDCE7228BA60500B79781 /* LearnFmdbCaCheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDCFF228BA60500B79781 /* Build configuration list for PBXNativeTarget "LearnFmdbCaCheTests" */;
+			buildPhases = (
+				4020698437419FAAEF9F28D4 /* [CP] Check Pods Manifest.lock */,
+				04AFDCE4228BA60500B79781 /* Sources */,
+				04AFDCE5228BA60500B79781 /* Frameworks */,
+				04AFDCE6228BA60500B79781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AFDCEA228BA60500B79781 /* PBXTargetDependency */,
+			);
+			name = LearnFmdbCaCheTests;
+			productName = LearnFmdbCaCheTests;
+			productReference = 04AFDCE8228BA60500B79781 /* LearnFmdbCaCheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04AFDCF2228BA60500B79781 /* LearnFmdbCaCheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDD02228BA60500B79781 /* Build configuration list for PBXNativeTarget "LearnFmdbCaCheUITests" */;
+			buildPhases = (
+				1C811C95877CF68A709D764B /* [CP] Check Pods Manifest.lock */,
+				04AFDCEF228BA60500B79781 /* Sources */,
+				04AFDCF0228BA60500B79781 /* Frameworks */,
+				04AFDCF1228BA60500B79781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AFDCF5228BA60500B79781 /* PBXTargetDependency */,
+			);
+			name = LearnFmdbCaCheUITests;
+			productName = LearnFmdbCaCheUITests;
+			productReference = 04AFDCF3228BA60500B79781 /* LearnFmdbCaCheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AFDCC8228BA60100B79781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zhihuiketang;
+				TargetAttributes = {
+					04AFDCCF228BA60100B79781 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04AFDCE7228BA60500B79781 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04AFDCCF228BA60100B79781;
+					};
+					04AFDCF2228BA60500B79781 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04AFDCCF228BA60100B79781;
+					};
+				};
+			};
+			buildConfigurationList = 04AFDCCB228BA60100B79781 /* Build configuration list for PBXProject "LearnFmdbCaChe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AFDCC7228BA60100B79781;
+			productRefGroup = 04AFDCD1228BA60100B79781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AFDCCF228BA60100B79781 /* LearnFmdbCaChe */,
+				04AFDCE7228BA60500B79781 /* LearnFmdbCaCheTests */,
+				04AFDCF2228BA60500B79781 /* LearnFmdbCaCheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AFDCCE228BA60100B79781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDCE0228BA60500B79781 /* LaunchScreen.storyboard in Resources */,
+				04AFDCDD228BA60500B79781 /* Assets.xcassets in Resources */,
+				04AFDCDB228BA60100B79781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDCE6228BA60500B79781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDCF1228BA60500B79781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0607DC8D5E6E74F3F0171B7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnFmdbCaChe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C811C95877CF68A709D764B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnFmdbCaCheUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4020698437419FAAEF9F28D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnFmdbCaCheTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE954460925F1DF76BAEAA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LearnFmdbCaChe/Pods-LearnFmdbCaChe-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnFmdbCaChe/Pods-LearnFmdbCaChe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AFDCCC228BA60100B79781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDD17228BF5BB00B79781 /* SMRootCellViewModel.m in Sources */,
+				04AFDD25228BFBC100B79781 /* UIButton+BackgroundColor.m in Sources */,
+				04AFDCD8228BA60100B79781 /* ViewController.m in Sources */,
+				04AFDD09228BA9D200B79781 /* SMFeedModel.m in Sources */,
+				04AFDD22228BFA1900B79781 /* UIColor+Expanded.m in Sources */,
+				04AFDD0C228BA9E500B79781 /* SMFeedStore.m in Sources */,
+				04AFDCE3228BA60500B79781 /* main.m in Sources */,
+				04AFDD1F228BF9C600B79781 /* SMStyle.m in Sources */,
+				04AFDD14228BEDCB00B79781 /* SMNetManager.m in Sources */,
+				04AFDCD5228BA60100B79781 /* AppDelegate.m in Sources */,
+				04AFDD10228BAF1600B79781 /* SMDB.m in Sources */,
+				04AFDD1B228BF60300B79781 /* SMRootCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDCE4228BA60500B79781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDCED228BA60500B79781 /* LearnFmdbCaCheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDCEF228BA60500B79781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDCF8228BA60500B79781 /* LearnFmdbCaCheUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AFDCEA228BA60500B79781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AFDCCF228BA60100B79781 /* LearnFmdbCaChe */;
+			targetProxy = 04AFDCE9228BA60500B79781 /* PBXContainerItemProxy */;
+		};
+		04AFDCF5228BA60500B79781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AFDCCF228BA60100B79781 /* LearnFmdbCaChe */;
+			targetProxy = 04AFDCF4228BA60500B79781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AFDCD9228BA60100B79781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AFDCDA228BA60100B79781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AFDCDE228BA60500B79781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AFDCDF228BA60500B79781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AFDCFA228BA60500B79781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04AFDCFB228BA60500B79781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AFDCFD228BA60500B79781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55D0FC4F884F87B782974C4 /* Pods-LearnFmdbCaChe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LearnFmdbCaChe/PrefixHeader.pch";
+				INFOPLIST_FILE = LearnFmdbCaChe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingxue.LearnFmdbCaChe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AFDCFE228BA60500B79781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEBC0B799BA0DD112532452 /* Pods-LearnFmdbCaChe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LearnFmdbCaChe/PrefixHeader.pch";
+				INFOPLIST_FILE = LearnFmdbCaChe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingxue.LearnFmdbCaChe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04AFDD00228BA60500B79781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A63C53B0B6E004A958D9CC /* Pods-LearnFmdbCaCheTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				INFOPLIST_FILE = LearnFmdbCaCheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingxue.LearnFmdbCaCheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnFmdbCaChe.app/LearnFmdbCaChe";
+			};
+			name = Debug;
+		};
+		04AFDD01228BA60500B79781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEC8D422A70E944F4CD45A5 /* Pods-LearnFmdbCaCheTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				INFOPLIST_FILE = LearnFmdbCaCheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingxue.LearnFmdbCaCheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnFmdbCaChe.app/LearnFmdbCaChe";
+			};
+			name = Release;
+		};
+		04AFDD03228BA60500B79781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF21ACF75516461514E08C6F /* Pods-LearnFmdbCaCheUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				INFOPLIST_FILE = LearnFmdbCaCheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingxue.LearnFmdbCaCheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnFmdbCaChe;
+			};
+			name = Debug;
+		};
+		04AFDD04228BA60500B79781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CEECD5D24B79E33F99530C /* Pods-LearnFmdbCaCheUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				INFOPLIST_FILE = LearnFmdbCaCheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingxue.LearnFmdbCaCheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnFmdbCaChe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AFDCCB228BA60100B79781 /* Build configuration list for PBXProject "LearnFmdbCaChe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDCFA228BA60500B79781 /* Debug */,
+				04AFDCFB228BA60500B79781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDCFC228BA60500B79781 /* Build configuration list for PBXNativeTarget "LearnFmdbCaChe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDCFD228BA60500B79781 /* Debug */,
+				04AFDCFE228BA60500B79781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDCFF228BA60500B79781 /* Build configuration list for PBXNativeTarget "LearnFmdbCaCheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDD00228BA60500B79781 /* Debug */,
+				04AFDD01228BA60500B79781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDD02228BA60500B79781 /* Build configuration list for PBXNativeTarget "LearnFmdbCaCheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDD03228BA60500B79781 /* Debug */,
+				04AFDD04228BA60500B79781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AFDCC8228BA60100B79781 /* Project object */;
+}
